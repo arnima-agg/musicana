@@ -10,9 +10,10 @@ exports.signup = (req, res) => {
 			error: errors.array()[0].msg
 		});
 	}
-
 	const user = new User(req.body);
+	console.log(user)
 	user.save((err, user) => {
+		console.log(err)
 		if (err) {
 			return res.status(400).json({
 				// err

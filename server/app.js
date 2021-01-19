@@ -48,12 +48,13 @@ app.listen(PORT, () => {
 
 
 
-const client_id = process.env.SPOTIFY_CLIENT_ID; // Your client id
-const client_secret = process.env.SPOTIFY_CLIENT_SECRET; // Your secret
+const client_id = "fda47e3048da457f92fd9d9165735c16"; // Your client id
+const client_secret = "8d4613e6fc8e41619a94aac1a961813d"; // Your secret
+console.log(client_id+" "+client_secret)
 access_token='';
 
 function authSpotifyApi() {
-	access_token = 'BQDi3HJB4eS6Zn62BJiVzwNUIJlT3M0aNP6U1qlf7M9PCXAQxm6RI1LBMmmn7l9mySKBnJaJZyWq1IVa0KY';
+	access_token = 'BQAY-8DcPPMIpXAv1wfcHveeiyCV0Po0V4EfpPBZverRAXWRaEciFmMtSeCoMlN5SXRFCU5sqsogaDXqVKo';
 	/* 
 		The access token expires after 1 hour. Uncomment the code below to request a new token (gets logged in the console).
 		Replcae the token value with the `access_token` variable above and comment the code below again to prevent spams for 
