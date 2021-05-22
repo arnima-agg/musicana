@@ -129,7 +129,8 @@ const getCleanTrack = track => {
 			duration: Math.round(track.duration_ms / 1000),
 			id: track.id,
 			name: track.name,
-			image: track.album.images[1].url
+			image: track.album.images[1].url,
+			url:track.external_urls.spotify
 		};
 		return cleanTrack;
 	} catch (e){

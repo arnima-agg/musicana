@@ -38,7 +38,7 @@ const Signup = () => {
 				<div className="row m-0 justify-content-center align-items-center">
 					<div className="col-6">
 						<div className="imgContainer">
-							<img src="./imgs/signup.jpg" alt="signup"/>
+							<img src="./imgs/signup.png" alt="signup"/>
 						</div>
 					</div>
 					<div className="col-md-6 text-left">

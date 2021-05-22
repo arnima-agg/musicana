@@ -239,11 +239,7 @@ section {
 	transition: 0.3s;
 	overflow: hidden;
 }
-.trackCard .trackCard-img-container {
-	/* position: absolute;
-	height: 100%;
-	width: 100%; */
-}
+
 .trackCard .trackCard-img-container img {
 	width: 100%;
 	/* height: 100%; */
@@ -362,6 +358,7 @@ section {
 /*---------------------	Footer ---------------------*/
 #contactus{
 	position: relative;
+	
 }
 #contactus span::after{
 	content: '';
@@ -371,5 +368,18 @@ section {
 	width: 85%;
 	height: 3px;
 	border-radius: 10px;
-	background: white;
+	
+}
+.out1{
+	outline-style:double;
+}
+.footer1{
+	background-color: #2F80ED;
+	height: 80px;
+	color: white;
+
+
+}
+.footer1 i {
+	color: white;
 }

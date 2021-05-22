@@ -9,9 +9,9 @@ const navbar = ({ history }) => {
 			<NavLink to="/" className="navbar-brand ml-1 px-4" style={{cursor: 'pointer'}}>
 				<div className="row h-100 align-items-center">
 					<div className="imgContainer" style={{width: '2rem'}}>
-						<img src="../imgs/logo.svg" alt="logo"/>
+						<img src="../imgs/logo_free-file.png" alt="logo"/>
 					</div>
-					<span>&emsp;MusicBolt</span>
+					<span style={{ color: '#3d84d8',fontWeight:'550' }}>&emsp;Musicana</span>
 				</div>
 			</NavLink>
 			{isAuthenticated() && (

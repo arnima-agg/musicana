@@ -7,7 +7,7 @@ const Card = ({ track }) => {
 	const [rating, setRating] = useState(0);
 	const [isFav, setIsFav] = useState(false);
 	
-	const { artist, duration, id, name, image } = track;
+	const { artist, duration, id, name, image ,url} = track;
 	const { user, token } = isAuthenticated();
 
 	const loadTrackRating = () => {
@@ -55,6 +55,10 @@ const Card = ({ track }) => {
 	}, [rating]);
 
 	return (
+		<div>
+			<div>
+			<a href={url} target="_blank" rel="noopener noreferrer"  className="btn btn-outline-info btn-lg">PLAY IT</a>
+			</div>
 		<div className="trackCard">
 			<div className="trackCard-img-container">
 				<img src={image} alt="track image" className="card-img-top" />
@@ -113,6 +117,7 @@ const Card = ({ track }) => {
 					<label htmlFor={`${id}rating1`}>1</label>
 				</span>
 			</div>
+		</div>
 		</div>
 	);
 };

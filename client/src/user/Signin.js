@@ -55,7 +55,7 @@ const Signin = () => {
 				<div className="row m-0 justify-content-center align-items-center">
 					<div className="col-6 ">
 							<div className="imgContainer" style={{width: '40em'}}>
-								<img src="./imgs/login.jpg" alt="login"/>
+								<img src="./imgs/login.png" alt="login"/>
 							</div>
 						</div>
 					<div className="col-6 h-100 text-left">

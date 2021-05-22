@@ -57,9 +57,9 @@ exports.getRecommendations = (req, res) => {
 			});
 			data[user._id] = obj;
 		});
-		console.log(data);
+		//console.log(data);
 		rec = recommendation_eng(data, req.profile._id, pearson_correlation);
-		console.log(rec);
+		//console.log(rec);
 		res.json(rec[1]);
 	})
 }
@@ -171,7 +171,7 @@ var recommendation_eng = function(dataset, person, distance) {
 	for (var other in dataset) {
 		if (other === person) continue;
 		var similar = distance(dataset, person, other);
-		if (similar <= 0) continue;
+		if (similar <= -1) continue;
 		for (var item in dataset[other]) {
 			if (!(item in dataset[person]) || dataset[person][item] == 0) {
 				totals.setDefault(item, dataset[other][item] * similar);
