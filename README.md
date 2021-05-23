@@ -12,7 +12,7 @@ A music recommender system built with MERN stack, and utilizes Spotify API for i
  
 ## Demo
 
-This application is deployed on Heroku. Please check it out :smile: [here](https://mern-store-80202.herokuapp.com/).
+This application is deployed on Heroku. 
 
 
 ## Languages & tools
