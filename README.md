@@ -9,10 +9,6 @@ A music recommender system built with MERN stack, and utilizes Spotify API for i
   * Add the songs to their favourites and can give ratings to them
   * Recommendations are provided using collaborative filtering
   
- 
-## Demo
-
-This application is deployed on Heroku. 
 
 
 ## Languages & tools
